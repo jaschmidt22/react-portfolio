@@ -1,0 +1,12 @@
+.headerParent {
+    background-color: #0e6d76;
+    height: "20vh";
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+  }
+  
+  #header-text {
+    font-size:  xx-large
+    color: #bbebec;
+  }
