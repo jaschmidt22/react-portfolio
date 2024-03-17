@@ -1,12 +1,14 @@
 .headerParent {
     background-color: #0e6d76;
-    height: "20vh";
+    height: "40vh";
     display: flex;
-    justify-content: space-between;
-    padding: 2vw;
+    justify-content:space-between;
+    
   }
   
   #header-text {
-    font-size:  xx-large
-    color: #bbebec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #ffff;
   }
