@@ -5,7 +5,7 @@ import Error from "./pages/Error";
 import About from "./pages/About/About.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Portfolio from "./pages/Portfolio/Portfolio.jsx";
-import Resume from "./pages/Resume/Resume.jsx";
+import Resume from "./Pages/Resume/Resume.jsx";
 import "./main.css";
 
 const router = createBrowserRouter([
