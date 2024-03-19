@@ -19,7 +19,7 @@ export function Project({ project }) {
           component="img"
           alt="displayed projects with associated links"
           height="180"
-          image={project.imageLink}
+          image={project.image}
         />
         <CardContent>
           <Typography
