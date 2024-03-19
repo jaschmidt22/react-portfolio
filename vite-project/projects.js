@@ -11,7 +11,7 @@ export const projects = [
     projectTitle: "Jessica's Tech Blog",
     description:
       "Blog site for tech enthusiasts to share their thoughts and ideas. Users can create an account, make posts, and comment on other posts.",
-    imageLink: TechBlogImage,
+    image: TechBlogImage,
     liveLink: "https://jessicas-tech-blog-33ef3aaa807c.herokuapp.com",
     gitHub: "https://github.com/jaschmidt22/jessicas-tech-blog",
   },
@@ -19,7 +19,7 @@ export const projects = [
     projectTitle: "Work Day Scheduler",
     description:
       "A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
-    imageLink: WorkDaySchedulerImage,
+    image: WorkDaySchedulerImage,
     liveLink: "https://jaschmidt22.github.io/work-day-scheduler/",
     gitHub: "https://github.com/jaschmidt22/work-day-scheduler",
   },
@@ -27,7 +27,7 @@ export const projects = [
     projectTitle: "Weather Dashboard",
     description:
       "A weather dashboard that runs in the browser and feature dynamically updated HTML and CSS. It uses the OpenWeather API to retrieve weather data for cities.",
-    imageLink: WeatherDashBoardImage,
+    image: WeatherDashBoardImage,
     liveLink: "https://jaschmidt22.github.io/weather-dashboard/",
     gitHub: "https://github.com/jaschmidt22/weather-dashboard",
   },
@@ -35,7 +35,7 @@ export const projects = [
     projectTitle: " Hero Searchup",
     description:
       "A collaborative web application that allows users to search for their favorite Marvel charcter, view the comics they are in, and watch a YouTube video. Built with HTML, CSS, JavaScript, YouTube API, and Marvel API.",
-    imageLink: HeroSearchImage,
+    image: HeroSearchImage,
     liveLink: "https://jaschmidt22.github.io/sounds-of-marvel/",
     gitHub: "https://github.com/jaschmidt22/sounds-of-marvel",
   },
@@ -43,7 +43,7 @@ export const projects = [
     projectTitle: "Text Editor",
     description:
       "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Render.",
-    imageLink: TextEditorImage,
+    image: TextEditorImage,
     liveLink: "https://progressive-web-application-balr.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/progressive-web-application",
   },
@@ -51,7 +51,7 @@ export const projects = [
     projectTitle: "Ryan's Recipes",
     description:
       "A collaborative recipe app that allows users to create, edit, and delete recipes. Users can also comment on recipe posts. Built with Node and Express backend, MySQL database with a Sequelize ORM, and deployed on Heroku.",
-    imageLink: RyansRecipesImage,
+    image: RyansRecipesImage,
     liveLink: "https://asu-ryans-recipes-b97a1cee621f.herokuapp.com/",
     gitHub: "https://github.com/maverickwolfe21/ryans-recipes",
   },
