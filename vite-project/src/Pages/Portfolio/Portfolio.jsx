@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { projects } from "../../../projects";
 
-// Function that renders the portfolio cards, grid, buttons & exports
+//function that renders the portfolio cards, grid, buttons & exports
 export function Project({ project }) {
   return (
     <Grid item xs={4} style={{ display: "flex", justifyContent: "center" }}>
@@ -57,7 +57,7 @@ export function Project({ project }) {
   );
 }
 
-// Function/component written to map over projects.js array
+//function/component written to map over projects array
 export default function Projects() {
   return (
     <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>

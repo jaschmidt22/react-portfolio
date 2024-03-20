@@ -7,7 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 
-// Function that renders the footer
+//function that renders the footer
 const Footer = () => {
   return (
     <div style={{ paddingTop: "30px", paddingBottom: "30px" }}>
@@ -22,7 +22,7 @@ const Footer = () => {
           xs={4}
         >
           <Link to="#">
-            <LinkedInIcon
+            <LinkedInIcon //link to future LinkedIn profile
               id="icon"
               className="pop-on-hover"
               sx={{ fontSize: 50 }}
@@ -36,7 +36,7 @@ const Footer = () => {
             />
           </Link>
           <Link to="#">
-            <TwitterIcon
+            <TwitterIcon //link to future Twitter profile
               id="icon"
               className="pop-on-hover"
               sx={{ fontSize: 50 }}
