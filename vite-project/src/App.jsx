@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
+  //The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
       <Header />

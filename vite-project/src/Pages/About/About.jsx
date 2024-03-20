@@ -1,4 +1,3 @@
-//import { Route, Routes } from "react-router-dom";
 import "./About.css";
 import Hero from "../../assets/Hero.jpg";
 import CardMedia from "@mui/material/CardMedia";
@@ -25,13 +24,13 @@ export default function About() {
       <div style={{ width: "70%", margin: "0 auto" }}>
         <h1 id="about-me-title">About Me</h1>
         <p id="p-about">
-          Hello my name is Jessica and I am a junior web developer. I just
-          finished a Full Stack Web Development Bootcamp at Arizona State
-          University.
-        </p>
-        <p id="p-about">
-          I have over 20 years of experience in the healthcare field. I am not
-          sure what else to say here yet.
+          Hello! My name is Jessica and I am a junior web developer. I am a
+          recent graduate of a Full Stack Web Development Bootcamp through
+          Arizona State University. I have over 20 years of experience in the
+          medical field, working side by side with doctors and patients in a
+          fast-paced and detail-oriented environment. I am excited to bring my
+          unique background to the tech industry and am eager to continue to
+          grow and develop my skills as a web developer.
         </p>
       </div>
     </>
