@@ -8,6 +8,11 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { grey } from "@mui/material/colors";
+
+const buttonColor = grey[900];
+const buttonColorHover = [400];
+
 import { projects } from "../../../projects";
 
 //function that renders the portfolio cards, grid, buttons & exports
@@ -41,6 +46,10 @@ export function Project({ project }) {
             className="pop-on-hover-portfolio"
             href={project.liveLink}
             size="small"
+            sx={{
+              backgroundColor: buttonColor,
+              "&:hover": { backgroundColor: buttonColorHover },
+            }}
           >
             Live URL
           </Button>
@@ -50,6 +59,10 @@ export function Project({ project }) {
             className="pop-on-hover-portfolio"
             href={project.gitHub}
             size="small"
+            sx={{
+              backgroundColor: buttonColor,
+              "&:hover": { backgroundColor: buttonColorHover },
+            }}
           >
             GitHub
           </Button>
