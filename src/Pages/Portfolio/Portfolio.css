@@ -15,16 +15,6 @@ div#project {
     display: hidden !important;
   }
   
-  #portfolio-button {
-    background-color: #34373a;
-    color: white;
-  }
-  
-  #portfolio-button:hover {
-    background-color: #6e7275;
-    color: white;
-  }
-  
   @-webkit-keyframes pop-on-hover {
     50% {
       -webkit-transform: scale(1.2);
@@ -39,7 +29,9 @@ div#project {
     }
   }
   
-  .pop-on-hover {
+  .pop-on-hover-portfolio {
+    background-color: #34373a !important;
+    color: white;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -47,10 +39,13 @@ div#project {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   
-  .pop-on-hover:hover,
-  .pop-on-hover:focus,
-  .pop-on-hover:active {
-    -webkit-animation-name: pop-on-hover;
+  .pop-on-hover-portfolio:hover,
+  .pop-on-hover-portfolio:focus,
+  .pop-on-hover-portfolio:active {
+    
+    background-color: #6e7275 !important;
+    color: white;
+    -webkit-animation-name:pop-on-hover;
     animation-name: pop-on-hover;
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
