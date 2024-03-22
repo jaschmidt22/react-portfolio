@@ -4,9 +4,12 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import "./Resume.css";
 import { grey } from "@mui/material/colors";
+import { cyan } from "@mui/material/colors";
 
 const buttonColor = grey[800];
-const buttonColorHover = grey[400];
+const buttonColorHover = grey[500];
+const buttonTextColor = grey[50];
+const profHeaderColor = cyan[900];
 
 //function that renders future downloadable resume, proficiencies & exports
 export default function Resume() {
@@ -28,7 +31,7 @@ export default function Resume() {
             className="pop-on-hover"
             sx={{
               backgroundColor: buttonColor,
-              color: "inherit",
+              color: buttonTextColor,
               "&:hover": { backgroundColor: buttonColorHover },
             }}
           >
@@ -40,7 +43,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             textDecoration: "underline",
-            font: "Arial, Helvetica, sans-serif",
+            fontFamily: "Arial, Helvetica, sans-serif",
           }}
         >
           Front-End Proficiencies
@@ -50,7 +53,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             paddingRight: "0px",
-            font: "Arial, Helvetica, sans-serif",
+            fontFamily: "Arial, Helvetica, sans-serif",
           }}
         >
           ▪️ HTML / CSS / GIT
@@ -67,7 +70,8 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             textDecoration: "underline",
-            font: "Arial, Helvetica, sans-serif",
+            fontFamily: "Arial, Helvetica, sans-serif",
+            color: profHeaderColor,
           }}
         >
           Back-End Proficiencies
@@ -77,7 +81,8 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             paddingLeft: "20px",
-            font: "Arial, Helvetica, sans-serif",
+            fontFamily: "Arial, Helvetica, sans-serif",
+            color: profHeaderColor,
           }}
         >
           ▪️ SQL / MYSQL / NoSQL

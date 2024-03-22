@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import { grey } from "@mui/material/colors";
 
 const buttonColor = grey[800];
-const buttonColorHover = grey[400];
+const buttonColorHover = grey[500];
 
 import { projects } from "../../../projects";
 
