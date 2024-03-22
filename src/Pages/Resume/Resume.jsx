@@ -3,6 +3,10 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import "./Resume.css";
+import { grey } from "@mui/material/colors";
+
+const buttonColor = grey[900];
+const buttonColorHover = [400];
 
 //function that renders future downloadable resume, proficiencies & exports
 export default function Resume() {
@@ -19,7 +23,14 @@ export default function Resume() {
           }}
           rel="noreferrer"
         >
-          <Button id="resume-button" className="pop-on-hover">
+          <Button
+            id="resume-button"
+            className="pop-on-hover"
+            sx={{
+              backgroundColor: buttonColor,
+              "&:hover": { backgroundColor: buttonColorHover },
+            }}
+          >
             Future Resume Download Here
           </Button>
         </a>
@@ -28,6 +39,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             textDecoration: "underline",
+            font: "Arial, Helvetica, sans-serif",
           }}
         >
           Front-End Proficiencies
@@ -37,6 +49,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             paddingRight: "0px",
+            font: "Arial, Helvetica, sans-serif",
           }}
         >
           ▪️ HTML / CSS / GIT
@@ -53,6 +66,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             textDecoration: "underline",
+            font: "Arial, Helvetica, sans-serif",
           }}
         >
           Back-End Proficiencies
@@ -62,6 +76,7 @@ export default function Resume() {
             display: "flex",
             justifyContent: "center",
             paddingLeft: "20px",
+            font: "Arial, Helvetica, sans-serif",
           }}
         >
           ▪️ SQL / MYSQL / NoSQL
