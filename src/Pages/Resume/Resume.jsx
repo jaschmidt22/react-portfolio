@@ -54,6 +54,7 @@ export default function Resume() {
             justifyContent: "center",
             paddingRight: "0px",
             fontFamily: "Arial, Helvetica, sans-serif",
+            color: profHeaderColor,
           }}
         >
           ▪️ HTML / CSS / GIT
@@ -71,7 +72,6 @@ export default function Resume() {
             justifyContent: "center",
             textDecoration: "underline",
             fontFamily: "Arial, Helvetica, sans-serif",
-            color: profHeaderColor,
           }}
         >
           Back-End Proficiencies
@@ -82,7 +82,6 @@ export default function Resume() {
             justifyContent: "center",
             paddingLeft: "20px",
             fontFamily: "Arial, Helvetica, sans-serif",
-            color: profHeaderColor,
           }}
         >
           ▪️ SQL / MYSQL / NoSQL
