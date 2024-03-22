@@ -10,8 +10,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { grey } from "@mui/material/colors";
 
-const buttonColor = grey[900];
-const buttonColorHover = [400];
+const buttonColor = grey[800];
+const buttonColorHover = grey[400];
 
 import { projects } from "../../../projects";
 

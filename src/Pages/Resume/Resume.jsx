@@ -5,8 +5,8 @@ import Button from "@mui/material/Button";
 import "./Resume.css";
 import { grey } from "@mui/material/colors";
 
-const buttonColor = grey[900];
-const buttonColorHover = [400];
+const buttonColor = grey[800];
+const buttonColorHover = grey[400];
 
 //function that renders future downloadable resume, proficiencies & exports
 export default function Resume() {
@@ -28,6 +28,7 @@ export default function Resume() {
             className="pop-on-hover"
             sx={{
               backgroundColor: buttonColor,
+              color: "inherit",
               "&:hover": { backgroundColor: buttonColorHover },
             }}
           >
