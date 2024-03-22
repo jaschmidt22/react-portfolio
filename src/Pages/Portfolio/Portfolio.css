@@ -10,7 +10,16 @@ div#project {
   #project:hover {
     filter: blur(4px);
   }
-  
+  #portfolio-button {
+    background-color: #34373a !important;
+    color: white;
+    
+  }
+  #portfolio-button:hover {
+    background-color: #6e7275 !important;
+    color: white;
+
+  }
   #projTitle {
     display: hidden !important;
   }
@@ -30,8 +39,6 @@ div#project {
   }
   
   .pop-on-hover-portfolio {
-    background-color: #34373a !important;
-    color: white;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -43,8 +50,6 @@ div#project {
   .pop-on-hover-portfolio:focus,
   .pop-on-hover-portfolio:active {
     
-    background-color: #6e7275 !important;
-    color: white;
     -webkit-animation-name:pop-on-hover;
     animation-name: pop-on-hover;
     -webkit-animation-duration: 0.3s;
