@@ -37,7 +37,8 @@ export function Project({ project }) {
         <CardActions style={{ justifyContent: "center" }}>
           <Button
             id="portfolio-button"
-            className="pop-on-hover"
+            variant="contained"
+            className="pop-on-hover-portfolio"
             href={project.liveLink}
             size="small"
           >
@@ -45,7 +46,8 @@ export function Project({ project }) {
           </Button>
           <Button
             id="portfolio-button"
-            className="pop-on-hover"
+            variant="contained"
+            className="pop-on-hover-portfolio"
             href={project.gitHub}
             size="small"
           >
