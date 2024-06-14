@@ -42,7 +42,7 @@ export const projects = [
   {
     projectTitle: "Text Editor",
     description:
-      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Render.",
+      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Netlify.",
     image: TextEditorImage,
     liveLink: "https://progressive-web-application-balr.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/progressive-web-application",
