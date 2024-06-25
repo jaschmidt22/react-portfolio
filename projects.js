@@ -2,7 +2,7 @@
 import TechBlogImage from "./src/assets/TechBlogImage.jpg";
 import WorkDaySchedulerImage from "./src/assets/WorkDaySchedulerImage.jpg";
 import WeatherDashBoardImage from "./src/assets/WeatherDashBoardImage.jpg";
-import AZKayakGuideImage from "./src/assets/AZKayakGuide.png";
+import AZKayakGuideImage from "./src/assets/AZKayakGuideImage.png";
 import TextEditorImage from "./src/assets/TextEditorImage.jpg";
 import RyansRecipesImage from "./src/assets/RyansRecipesImage.jpg";
 
