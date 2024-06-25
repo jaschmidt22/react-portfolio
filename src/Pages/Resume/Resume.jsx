@@ -11,13 +11,14 @@ const buttonColorHover = grey[500];
 const buttonTextColor = grey[50];
 const profHeaderColor = cyan[900];
 
-//function that renders future downloadable resume, proficiencies & exports
+//function that renders future downloadable resume, proficiencies
 export default function Resume() {
   return (
     <Box>
       <div>
         <a
-          download=""
+          href="./JessicaResumeDev.pdf"
+          download="JessicaResumeDev.pdf"
           target="_blank"
           style={{
             display: "flex",
@@ -35,7 +36,7 @@ export default function Resume() {
               "&:hover": { backgroundColor: buttonColorHover },
             }}
           >
-            Future Resume Download Here
+            Download My Resume
           </Button>
         </a>
         <h2
