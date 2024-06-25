@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Error from "./Pages/Error.jsx";
-import About from "./pages/About/About.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+import About from "./Pages/About/About.jsx";
+// import Contact from "./pages/Contact/Contact.jsx";
 import Portfolio from "./Pages/Portfolio/Portfolio.jsx";
 import Resume from "./Pages/Resume/Resume.jsx";
 import "./main.css";
@@ -29,10 +29,10 @@ const router = createBrowserRouter([
         path: "/Portfolio",
         element: <Portfolio />,
       },
-      {
-        path: "/Contact",
-        element: <Contact />,
-      },
+      // {
+      //   path: "/Contact",
+      //   element: <Contact />,
+      // },
       {
         path: "/Resume",
         element: <Resume />,

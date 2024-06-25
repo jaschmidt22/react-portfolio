@@ -2,7 +2,7 @@
 import TechBlogImage from "./src/assets/TechBlogImage.jpg";
 import WorkDaySchedulerImage from "./src/assets/WorkDaySchedulerImage.jpg";
 import WeatherDashBoardImage from "./src/assets/WeatherDashBoardImage.jpg";
-import HeroSearchImage from "./src/assets/HeroSearchImage.jpg";
+import AZKayakGuideImage from "./src/assets/AZKayakGuideImage.png";
 import TextEditorImage from "./src/assets/TextEditorImage.jpg";
 import RyansRecipesImage from "./src/assets/RyansRecipesImage.jpg";
 
@@ -32,12 +32,13 @@ export const projects = [
     gitHub: "https://github.com/jaschmidt22/weather-dashboard",
   },
   {
-    projectTitle: " Hero Searchup",
+    projectTitle: "AZ Kayak Guide",
     description:
-      "A collaborative web application that allows users to search for their favorite Marvel charcter, view the comics they are in, and watch a YouTube video. Built with HTML, CSS, JavaScript, YouTube API, and Marvel API.",
-    image: HeroSearchImage,
-    liveLink: "https://jaschmidt22.github.io/sounds-of-marvel/",
-    gitHub: "https://github.com/jaschmidt22/sounds-of-marvel",
+      "A website that provides information on kayaking in Arizona. Users can search for lakes and rivers, and once creating an account, can upload their own images and make blog posts. Built with HTML, CSS, JavaScript, powered by React. Deployed on Render.",
+    image: AZKayakGuideImage,
+
+    liveLink: "https://az-kayak-guide.onrender.com/",
+    gitHub: "https://github.com/jaschmidt22/az-kayak-guide/",
   },
   {
     projectTitle: "Text Editor",

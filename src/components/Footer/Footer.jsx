@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 
 //function that renders the footer
@@ -35,14 +35,14 @@ const Footer = () => {
               sx={{ fontSize: 50 }}
             />
           </Link>
-          <Link to="#">
+          {/* <Link to="#">
             <TwitterIcon //link to future Twitter profile
               id="icon"
               className="pop-on-hover"
               sx={{ fontSize: 50 }}
-            />
-          </Link>
-          <Link to="mailto:jessicaschmidt22@yahoo.com">
+            /> */}
+          {/* </Link> */}
+          <Link to="mailto:jessicaschmidt.dev@gmail.com">
             <EmailIcon
               id="icon"
               className="pop-on-hover"

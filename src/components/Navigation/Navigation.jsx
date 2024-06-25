@@ -32,7 +32,7 @@ function Navigation() {
         >
           Portfolio
         </Link>
-        <Link
+        {/* <Link
           component={RouterLink}
           to="/Contact"
           underline="hover"
@@ -42,7 +42,7 @@ function Navigation() {
           }
         >
           Contact
-        </Link>
+        </Link> */}
         <Link
           component={RouterLink}
           to="/Resume"

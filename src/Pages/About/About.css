@@ -1,30 +1,33 @@
 /* About styles */
 
-#hero {
-    overflow: hidden;
-    width: 100vw;
-    height: auto;
-  }
-  
-  #hero img {
-    object-fit: contain;
-    object-position: center;
-    max-width: 100%;
-    height: auto;
-  }
-  h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0e6d76;
-  }
-  
-  #about-me-title {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #p-about {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #505356;
-    text-align: center;
-  }
+.hero-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding: 20px; /* Optional: add padding around the container */
+}
+
+.hero-img {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  padding-right: 20px; /* Space between image and text */
+}
+
+.hero-text {
+  flex-grow: 1; /* Allow text to take remaining space */
+}
+
+#about-me-title {
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace; 
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  color: #0e6d76;
+}
+
+#p-about {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #505356;
+  text-align: center; 
+  padding-right: 20px
+}
+
+
