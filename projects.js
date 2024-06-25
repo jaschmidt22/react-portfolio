@@ -36,9 +36,14 @@ export const projects = [
     description:
       "A website that provides information on kayaking in Arizona. Users can search for lakes and rivers, and once creating an account, can upload their own images and make blog posts. Built with HTML, CSS, JavaScript, powered by React. Deployed on Render.",
     image: AZKayakGuideImage,
+<<<<<<<<< Temporary merge branch 1
+    liveLink: "https://az-kayak-guide.onrender.com/",
+    gitHub: "https://github.com/jaschmidt22/az-kayak-guide",
+=========
 
     liveLink: "https://az-kayak-guide.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/az-kayak-guide/",
+>>>>>>>>> Temporary merge branch 2
   },
   {
     projectTitle: "Text Editor",
