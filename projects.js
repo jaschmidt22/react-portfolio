@@ -2,7 +2,7 @@
 import TechBlogImage from "./src/assets/TechBlogImage.jpg";
 import WorkDaySchedulerImage from "./src/assets/WorkDaySchedulerImage.jpg";
 import WeatherDashBoardImage from "./src/assets/WeatherDashBoardImage.jpg";
-import AZKayakGuideImage from "./src/assets/AZKayakGuideImage.png";
+import AZKayakGuideImage from "./src/assets/AZKayakGuide.png";
 import TextEditorImage from "./src/assets/TextEditorImage.jpg";
 import RyansRecipesImage from "./src/assets/RyansRecipesImage.jpg";
 
@@ -36,19 +36,13 @@ export const projects = [
     description:
       "A website that provides information on kayaking in Arizona. Users can search for lakes and rivers, and once creating an account, can upload their own images and make blog posts. Built with HTML, CSS, JavaScript, powered by React. Deployed on Render.",
     image: AZKayakGuideImage,
-<<<<<<<<< Temporary merge branch 1
     liveLink: "https://az-kayak-guide.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/az-kayak-guide",
-=========
-
-    liveLink: "https://az-kayak-guide.onrender.com/",
-    gitHub: "https://github.com/jaschmidt22/az-kayak-guide/",
->>>>>>>>> Temporary merge branch 2
   },
   {
     projectTitle: "Text Editor",
     description:
-      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Render.",
+      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Netlify.",
     image: TextEditorImage,
     liveLink: "https://progressive-web-application-balr.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/progressive-web-application",
