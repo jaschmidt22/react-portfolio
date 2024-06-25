@@ -24,6 +24,11 @@ I was given the task of building a personal portfolio to showcase my recent proj
 
 This application has been deployed through Netlify, so you may simply click on the included link. You will be presented with the About Me page with with a short bio. In the Navigation bar just click on "Portfolio" to be taken to a page with six deployed applications complete with an image, description, live link, and link to the GitHub repository. You may then click on the "Contact Me" link to be taken to a contact form to type your name, e-mail and a message. The back-end functionality has not yet been implemented for the form. Finally, click the "Resume" link to be taken to a page with a list of my front-end and back-end proficiences listed. There is also a button for the link to my future resume. Notice that on each page that is rendered, the header with navigation bar along with the footer with multiple social media links persist.
 https://jessicaschmidtportfolio.netlify.app/About
+<img width="1082" alt="Screenshot 2024-03-22 210528" src="https://github.com/jaschmidt22/react-portfolio/assets/146290812/e858d8d7-2577-4b62-9ace-d24dadc0c2c6">
+<img width="1083" alt="Screenshot 2024-03-22 210546" src="https://github.com/jaschmidt22/react-portfolio/assets/146290812/34f8fdb5-9412-4cd6-9712-cb2f5aa03ba9">
+
+
+
 
 ## Credits
 
