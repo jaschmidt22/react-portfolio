@@ -33,6 +33,7 @@ export const projects = [
   },
   {
     projectTitle: "AZ Kayak Guide",
+    projectTitle: "AZ Kayak Guide",
     description:
       "A website that provides information on kayaking in Arizona. Users can search for lakes and rivers, and once creating an account, can upload their own images and make blog posts. Built with HTML, CSS, JavaScript, powered by React. Deployed on Render.",
     image: AZKayakGuideImage,
@@ -43,7 +44,7 @@ export const projects = [
   {
     projectTitle: "Text Editor",
     description:
-      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Render.",
+      "A Progressive Web Application that allows users to create, edit and save a number of different file types either on or offline. Built with Webpack bundled JavaScript, generated HTML and saved with IndexedDB. Deployed on Netlify.",
     image: TextEditorImage,
     liveLink: "https://progressive-web-application-balr.onrender.com/",
     gitHub: "https://github.com/jaschmidt22/progressive-web-application",
